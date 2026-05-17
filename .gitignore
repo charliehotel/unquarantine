@@ -1,0 +1,17 @@
+.DS_Store
+._*
+
+# Local agent/tool state
+.omx/
+
+# Release/build artifacts
+dist/
+build/
+*.dmg
+*.zip
+
+# Editor noise
+.idea/
+.vscode/
+*.swp
+*.swo
