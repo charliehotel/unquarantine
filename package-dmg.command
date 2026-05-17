@@ -16,6 +16,7 @@ mkdir -p "$STAGING_DIR"
 cp "$ROOT_DIR/unquarantine.command" "$STAGING_DIR/"
 cp "$ROOT_DIR/README.md" "$STAGING_DIR/"
 cp "$ROOT_DIR/LICENSE" "$STAGING_DIR/"
+cp "$ROOT_DIR/unquarantine_icon.png" "$STAGING_DIR/"
 cp "$ROOT_DIR"/Screenshot_*.png "$STAGING_DIR/"
 
 chmod +x "$STAGING_DIR/unquarantine.command"

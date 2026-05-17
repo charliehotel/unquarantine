@@ -1,5 +1,9 @@
 # macOS 앱 격리 해제기
 
+<p align="center">
+  <img src="./unquarantine_icon.png" alt="macOS 앱 격리 해제기 아이콘" width="160">
+</p>
+
 신뢰할 수 있는 출처에서 받은 macOS 앱의 `com.apple.quarantine` 속성을 쉽게 제거하는 작은 도구입니다.
 
 macOS는 인터넷에서 다운로드한 앱에 quarantine 속성을 붙이고, 첫 실행 때 Gatekeeper 검사를 수행합니다. 이 도구는 `/Applications` 폴더에 있는 앱 목록을 보여준 뒤, 사용자가 선택한 앱 하나의 quarantine 속성만 제거합니다.
