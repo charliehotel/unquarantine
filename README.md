@@ -46,41 +46,75 @@ chmod +x unquarantine.command
 
 실행하면 `/Applications` 폴더의 앱을 최근 생성/복사/수정된 순서로 불러옵니다.
 
-![앱 목록 로딩](./Screenshot_01.png)
+<table>
+  <tr>
+    <td><img src="./Screenshot_01.png" alt="앱 목록 로딩"></td>
+  </tr>
+</table>
+
+---
 
 ### 2. 격리 해제할 앱 선택
 
 목록에는 앱 이름, 최근 변경 시각, 격리 상태가 표시됩니다.
 
-![앱 선택 화면](./Screenshot_02.png)
+<table>
+  <tr>
+    <td><img src="./Screenshot_02.png" alt="앱 선택 화면"></td>
+  </tr>
+</table>
 
 최신 버전에서는 안전한 경로 매핑을 위해 앱 이름 앞에 `[번호]`가 함께 표시될 수 있습니다.
 
 `격리됨`으로 표시된 앱만 실제 해제 대상입니다. `격리 없음` 앱을 선택하면 관리자 권한 작업을 실행하지 않고 중단합니다.
 
+---
+
 ### 3. 실행 전 확인
 
 선택한 앱 이름과 경로를 다시 보여줍니다. 신뢰할 수 있는 앱인지 확인한 뒤 `격리 해제`를 누르세요.
 
-![격리 해제 확인](./Screenshot_03.png)
+<table>
+  <tr>
+    <td><img src="./Screenshot_03.png" alt="격리 해제 확인"></td>
+  </tr>
+</table>
+
+---
 
 ### 4. 관리자 암호 입력
 
 quarantine 속성 제거에는 관리자 권한이 필요할 수 있습니다. 터미널에서 macOS 사용자 암호를 입력합니다.
 
-![sudo 암호 입력](./Screenshot_04.png)
+<table>
+  <tr>
+    <td><img src="./Screenshot_04.png" alt="sudo 암호 입력"></td>
+  </tr>
+</table>
 
 암호를 입력할 때 화면에는 글자가 표시되지 않는 것이 정상입니다.
+
+---
 
 ### 5. 완료
 
 작업이 성공하면 완료 대화상자가 표시됩니다.
 
-![완료 대화상자](./Screenshot_05.png)
+<table>
+  <tr>
+    <td><img src="./Screenshot_05.png" alt="완료 대화상자"></td>
+  </tr>
+</table>
 
 터미널에서도 완료 메시지를 확인할 수 있습니다.
 
-![완료 터미널](./Screenshot_06.png)
+<table>
+  <tr>
+    <td><img src="./Screenshot_06.png" alt="완료 터미널"></td>
+  </tr>
+</table>
+
+---
 
 ## 이 도구가 하는 일
 
