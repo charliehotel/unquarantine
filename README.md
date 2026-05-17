@@ -88,7 +88,7 @@ chmod +x unquarantine.command
 
 ### 4. 관리자 암호 입력
 
-quarantine 속성 제거에는 관리자 권한이 필요할 수 있습니다. 터미널에서 macOS 사용자 암호를 입력합니다.
+quarantine 속성 제거는 `sudo`로 실행되므로 관리자 권한이 필요합니다. 터미널에서 macOS 사용자 암호를 입력합니다.
 
 <table>
   <tr>
